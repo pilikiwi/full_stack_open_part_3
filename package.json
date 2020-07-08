@@ -1,0 +1,27 @@
+{
+  "name": "phonebookbackend",
+  "version": "0.0.1",
+  "description": "Full Stack Open Part 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo No test specified && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilikiwi/full_stack_open_part_3.git"
+  },
+  "author": "Chih Wei Hsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilikiwi/full_stack_open_part_3/issues"
+  },
+  "homepage": "https://github.com/pilikiwi/full_stack_open_part_3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
