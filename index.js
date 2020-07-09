@@ -32,6 +32,14 @@ app.get('/api/persons', (req, res) =>{
     res.json(persons)
 })
 
+app.get('/info', (req, res) =>{
+  const total = Number(persons.map(person => person.id).length)
+
+  res.send(`<p> Phonebook has info for ${total} people <br></br>
+           ${Date()} </p>`)
+})
+
+
 const PORT = 3001
 app.listen(PORT, ()=>{
     console.log(`Server running on poart ${PORT}`)
