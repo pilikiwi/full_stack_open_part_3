@@ -18,7 +18,7 @@ app.get('/api/persons', (req, res) =>{
 
 app.get('/info', (req, res) =>{
   Person.find({}).then(persons=>{
-    res.json(`Phonebook has info for ${persons.length} people on ${Date()}`)
+    res.json(`Phonebook has info for ${persons.length} people on |${Date()}|`)
     })
 })
 
